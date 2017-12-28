@@ -5,9 +5,16 @@
   "author": "Bloc",
   "dependencies": {
     "mocha": "~1.13.0",
-    "chai": "~1.9.1",
     "rosie": "0.2.0",
     "karma-sinon": "1.0.0",
     "underscore": "1.6.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
