@@ -1,18 +1,20 @@
-- Create a `helloWorld` function. This function should:
-    - take 0 arguments
-    - return a 'Hello World' string
+# Functions
 
-    For example:
-    
-    ```
+- Create a `helloWorld` function. This function should:
+  - take 0 arguments
+  - return a 'Hello World' string
+
+ For example:
+
+    ``` javascript
     helloWorld() // returns 'Hello World'
     ```
-
 - Create a `multiply` function. This function should:
-    - take two arguments, both of them should be numbers
-    - return the result of multiplying the two arguments together
+  - take two arguments, both of them should be numbers
+  - return the result of multiplying the two arguments together
 
-    For example:
-    ```
+For example:
+
+    ```javascript
     multiply(10, 10) // returns 100
     ```
