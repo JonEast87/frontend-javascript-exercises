@@ -1,6 +1,8 @@
+# Debugging 01
+
 Another type of reference error can occur with variables instead of functions. For example, the `ReferenceError` can be thrown when the interpreter can't find a declared variable that's being called in a program. Very often, this error will be the result of a typo. Try running the following code with `mocha spec.js`:
 
-```
+``` javascript
 ReferenceError: firs is not defined
 ```
 

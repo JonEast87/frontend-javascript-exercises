@@ -1,8 +1,10 @@
+# Debugging 03
+
 Try running `mocha spec.js` in the `03-debugging-code/03_Console_Log` directory.
 
 You should see:
 
-```
+``` javascript
 1) add sums the two numbers:
      AssertionError: 2 == 3
 ```
@@ -21,7 +23,7 @@ module.exports.add = function(a,b) {
 
 In your terminal run `mocha spec.js`again. This time you should see:
 
-```
+``` javascript
 a equals: 1
 b equals: 2
 a+b equals:2

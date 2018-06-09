@@ -1,10 +1,12 @@
+# Debugging 02
+
 When we start writing more code we will be writing `{` and `}` a lot - but it can still be easy to make mistakes. Fortunately, the interpreter's job is to let us know when we forget something. The trick with this type of error is to make sure we've opened and closed all of our curly braces.
 
 Run `mocha spec.js` in `03-debugging-code/02_Unexpected_Token`
 
 You should see:
 
-```
+```javascript
 SyntaxError: Unexpected token )
 ```
 
