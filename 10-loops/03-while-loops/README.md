@@ -12,6 +12,7 @@ For example:
     actionFn = function() { console.log("Hello!"); };
     stream(conditionalFn, actionFn); // Prints nothing.
     counter = 10;
+
     conditionalFn = function() {
       counter--;
       return counter >= 0;
